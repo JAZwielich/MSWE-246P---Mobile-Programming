@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">=TodoList</string>
+    <string-array name="status">
+        <item>Todo</item>
+        <item>Doing</item>
+        <item>Done</item>
+    </string-array>
+    <string name="hello_blank_fragment">Temporary Text</string>
+    <string name="sort">Sort</string>
+    <string name="search">Search</string>
+    <string name="enter_task_description">Enter Task Description</string>
+
+</resources>

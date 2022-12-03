@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/customText"
+        android:layout_width="170dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="3dp"
+        android:layout_toStartOf="@+id/btnPlus"
+        android:text="@string/hello_blank_fragment"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPlus"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:layout_toStartOf="@+id/btnMinus"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btnMinus"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="-5dp"
+        android:layout_toStartOf="@+id/spinnerStatus"
+        android:text="-" />
+
+    <Spinner
+        android:id="@+id/spinnerStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:entries="@array/status" />
+
+    <TextView
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/item_id"
+        android:layout_width="43dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toStartOf="@+id/customText"
+        android:text="_id" />
+</RelativeLayout>

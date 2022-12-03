@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_prompt">In H.P. lovecrafts short stories which Outer God is sometimes called "The Blind Idiot God." </string>
+    <string name="answer1">Azathoth</string>
+    <string name="answer2">Cthulhu</string>
+    <string name="answer3">Yog-Sothoth</string>
+    <string name="answer4">The King In Yellow</string>
+    <string name="second_prompt">Who betrayed the permanently disabled the God Emperor Of Mankind during his rebellion in the Warhammer 40k Universe</string>
+    <string name="submit1">Next</string>
+    <string name="submit2">Submit</string>
+    <string name="hide_timer">Hide Timer?</string>
+    <string name="button_toggle">Change Buttons?</string>
+    <string name="time_limit">Set time limit in seconds for questions? (0 equals no time limit)</string>
+    <string-array name="answers_choice">
+        <item>Azathoth</item>
+        <item>Cthulhu</item>
+        <item>Yog-Sothoth</item>
+        <item>The King In Yellow</item>
+    </string-array>
+    <string name="Enter_Answer">Enter Answer Here</string>
+    <string name="results_button">Total Results</string>
+    <string name="fancy_buttons">Fancy Buttons</string>
+    <string name="default_buttons">Default Buttons</string>
+    <string name="timers_hide">Timers Hide</string>
+    <string name="timers_show">Timers Show</string>
+    <string name="channel_name">Quiz Expire Notification</string>
+    <string name="channel_description">Indicated to user that the quiz time limit is expiring</string>
+</resources>
